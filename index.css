@@ -1,0 +1,290 @@
+body {
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family
+}
+/* HOME PAGE/ HERO SECTION */
+.home {
+    display: flex;
+    height: 100dvh;
+}
+
+.navbar {
+    height: 100vh;
+    position: fixed;
+    width: 70px;
+    background: #052c24;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    padding: 10px ;
+    border-right: 5px solid black;
+}
+
+.navbar a {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    background: #023d28;
+    padding: 10px;
+    transition: 0.3s;
+    border-radius: 10px;
+    font-size-adjust: calc(0.9);
+    border-style: groove;
+}
+
+.navbar a:hover {
+    background: #1f6f5d;
+    color: black
+}
+
+.main {
+    overflow: hidden;
+    height: 100vh;
+    color: white;
+    background: linear-gradient(to top, #011a3b, #09a89b);
+}
+
+.main h1{
+    text-align:  right;
+    font-size-adjust: calc(1.1);
+    padding-right: 100px;
+}
+
+.main h2 {
+    font-size-adjust: calc(1);
+    text-align: right;
+    padding-right: 115px;
+}
+
+.main h3 {
+    font-size-adjust: calc(1);
+    text-align: right;
+    padding-right: 250px;
+}
+
+.center {
+    position: absolute;
+    height: 10px;
+    top: 280px;
+    font-size-adjust: calc(0.8);
+    text-align: justify;
+    padding-left: 650px;
+    padding-right: 500px;
+
+}
+
+.logo-img {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    top: 70px;
+    left: 120px;
+    border-radius: 140px;
+    border-style: outset;
+}
+
+.profile-img {
+    position: absolute;
+    width: 350px;
+    height: auto;
+    top: 280px;
+    right: 110px;
+    border-radius: 50px;
+    border-style: outset;
+}
+
+/* ABOUT PAGE  */
+.aboutme {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(to top, #010e0e, #107962);
+    color: white;
+}
+
+.am h1 {
+    position: fixed;
+    top: 12%;
+    left: 2%;
+    font-size-adjust: calc(1.1);
+    padding-left: 400px;
+    
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    overflow: hidden;
+    padding-right: 170vh;
+}
+
+.menu a {
+    padding: 20px 40px;
+    background:#09382a;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size-adjust: calc(1);
+    position: relative;
+    top: 25%;
+    left: 425%;
+    border-style: outset;
+    color: white;
+}
+
+.menu a:hover {
+    background:#0e6b57;
+    color:black;
+}
+
+.about-box{
+    position: fixed;
+    text-align: justify;
+    top: 30%;
+    left: 20%;
+    right: 45%;
+    font-size-adjust: calc(0.7);
+    padding: 20px;
+    background-color: #107962;
+    text-align: justify;
+    font-size: larger;
+    border-radius: 20px;
+    border-style: outset;
+}
+
+/* CONTACT PAGE */
+.contact {
+    overflow: hidden;
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(to top, #090330, #0e6b57);
+    color: white;
+}
+
+.contact-me h1{
+    text-align: center;
+    font-size-adjust: calc(0.8);
+    margin-left: 300px;
+}
+
+.contact-me h3{
+    text-align: center;
+    font-size-adjust: calc(0.8);
+    margin-left: 300px;
+}
+
+.contact-info h2 {
+    text-align: center;
+    font-size-adjust: calc(0.);
+    margin-left: 420px;
+}
+
+.contact-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 80px;
+}
+
+.contact-info {
+    background: #003826;
+    padding: 20px 140px 230px 100px;
+    margin-left: 70px;
+    border-radius: 20px;
+    width: 220px;
+    text-align: left;
+    border-style: groove;
+    font-size-adjust: calc(0.7);
+    
+}
+
+.contact-form {
+    background: #013b28;
+    padding: 40px 130px 60px 130px;
+    border-radius: 20px;
+    width: 220px;
+    text-align: left;
+    margin-left: 100px;
+    border-style: groove;
+    
+}
+
+.contact-form input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    border-style: groove;
+    
+}
+
+.contact-form textarea {
+    width:107%;
+    margin: 10px 0;
+    padding-bottom: 150px;
+    border: none;
+    border-radius: 5px;
+    border-style: groove;
+    
+}
+
+.contact-form button {
+    margin-top: 5px;
+    margin-left: 160px;
+    padding: 10px 15px;
+    background: #145c44;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    border-style: groove;
+    
+}
+
+
+/* PROJECT PAGE */
+.projects {
+    display: flex;
+    height: 100dvh;
+    background: linear-gradient(to bottom, #0f4402, #00032e);
+    color: white;
+}
+
+.navme {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    overflow: hidden;
+    padding-right: 205vh;
+   
+}
+
+.navme a {
+    padding: 20px 250px 25px 30px;
+    background:#09382a;
+    border-radius: 20px 0px 0px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size-adjust: calc(1);
+    position: relative;
+    top: 25%;
+    left: 525%;
+    border-style: outset;
+    color: white;
+}
+
+.navme a:hover {
+    background:#0e6b57;
+    color:black;
+}
+
+
+

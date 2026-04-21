@@ -1,0 +1,43 @@
+<!doctype html >
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>PORTFOLIO</title>
+        <link rel="stylesheet" href="/index.css">
+    </head>
+    <body>
+        <div class="contact">
+            <nav class="navbar">
+                <a href="home"_blank class="my-button">HOME</a>
+                <a href="aboutme"_blank class="my-button">ABOUT ME</a>
+                <a href="contact"_blank class="my-button">CONTACT</a>
+                <a href="projects"_blank class="my-button">PROJECTS</a>
+            </nav>
+            <div class="contact-me">
+                <h3>Need Help?</h3>
+                <h1>CONTACT ME</h1>
+                <h3>via:<h3>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <p><strong>📞Phone:</strong><br>09123456789</p>
+                        <h2>OR</h2>
+                        <p><strong>📧Mail:</strong><br>example@gmail.com</p>
+                        
+                        
+                    </div>
+                    <div class="contact-form">
+                        <label>YourName:</label>
+                        <input type="text">
+
+                        <label>Message:</label>
+                        <textarea></textarea>
+
+                        <button>SUBMIT</button>
+                        
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
