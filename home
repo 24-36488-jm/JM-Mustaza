@@ -8,10 +8,10 @@
     </head>
     <body>
         <nav class="navbar">
-            <a href="home"_blank class="my-button">HOME</a>
-            <a href="aboutme"_blank class="my-button">ABOUT ME</a>
-            <a href="contact"_blank class="my-button">CONTACT</a>
-            <a href="projects"_blank class="my-button">PROJECTS</a>
+            <a href="home">HOME</a>
+            <a href="aboutme">ABOUT ME</a>
+            <a href="contact">CONTACT</a>
+            <a href="projects">PROJECTS</a>
         </nav>
         <div class="main">
             <h1>WELCOME!</h1>
@@ -19,7 +19,7 @@
             <h2>MUSTAZA, JM</h2>
             <div class="imain-content">
                 <div class="left">
-                <img src="./assets/images/logo.jpg" class="logo-img">
+                <img src="./assets/images/logo.jpg" class="logo-img" alt="This is an AI Development">
                 </div>
                 <div class="center">
                 <p>
@@ -27,7 +27,7 @@
                 </p>
                 </div>
                 <div class="right">
-                <img src="./assets/images/profile.jpg" class="profile-img">
+                <img src="./assets/images/profile.jpg" class="profile-img" alt="This is an AI Development">
                 </div>
             </div>
         </div>

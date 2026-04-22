@@ -258,6 +258,33 @@ body {
     color: white;
 }
 
+.navskills {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    overflow: hidden;
+    padding-right: 30vh;
+   
+}
+
+.navskills a {
+    padding: 20px 250px 25px 30px;
+    background:#0b5e45;
+    border-radius: 20px 0px 0px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size-adjust: calc(1);
+    position: relative;
+    top: 35%;
+    border-style: outset;
+    color: white;
+}
+
+.navskills a:hover {
+    background:#0e6b57;
+    color:black;
+}
+
 .navme {
     display: flex;
     flex-direction: column;
@@ -269,14 +296,14 @@ body {
 
 .navme a {
     padding: 20px 250px 25px 30px;
-    background:#09382a;
+    background:#012218;
     border-radius: 20px 0px 0px 20px;
     cursor: pointer;
     transition: 0.3s;
     font-size-adjust: calc(1);
     position: relative;
-    top: 25%;
-    left: 525%;
+    top: 50%;
+    left: 10%;
     border-style: outset;
     color: white;
 }
@@ -285,6 +312,10 @@ body {
     background:#0e6b57;
     color:black;
 }
+
+
+
+
 
 
 

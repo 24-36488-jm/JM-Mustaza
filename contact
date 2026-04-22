@@ -9,10 +9,10 @@
     <body>
         <div class="contact">
             <nav class="navbar">
-                <a href="home"_blank class="my-button">HOME</a>
-                <a href="aboutme"_blank class="my-button">ABOUT ME</a>
-                <a href="contact"_blank class="my-button">CONTACT</a>
-                <a href="projects"_blank class="my-button">PROJECTS</a>
+                <a href="home">HOME</a>
+                <a href="aboutme">ABOUT ME</a>
+                <a href="contact">CONTACT</a>
+                <a href="projects">PROJECTS</a>
             </nav>
             <div class="contact-me">
                 <h3>Need Help?</h3>

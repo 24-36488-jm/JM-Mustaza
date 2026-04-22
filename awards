@@ -9,16 +9,16 @@
     <body>
         <div class="contact">
             <nav class="navbar">
-                <a href="home"_blank class="my-button">HOME</a>
-                <a href="aboutme"_blank class="my-button">ABOUT ME</a>
-                <a href="contact"_blank class="my-button">CONTACT</a>
-                <a href="projects"_blank class="my-button">PROJECTS</a>
+                <a href="home">HOME</a>
+                <a href="aboutme">ABOUT ME</a>
+                <a href="contact">CONTACT</a>
+                <a href="projects">PROJECTS</a>
             </nav>
             <nav class="navme">
-                <a href="skills"_blank class="my-skills">SKILLS</a>
-                <a href="talents"_blank class="my-button">TALENTS</a>
-                <a href="experiences"_blank class="my-button">EXPERIENCES</a>
-                <a href="awards"_blank class="my-button">AWARDS</a>
+                <a href="skills">SKILLS</a>
+                <a href="talents">TALENTS</a>
+                <a href="experiences">EXPERIENCES</a>
+                <a href="awards">AWARDS</a>
                 
             </nav>    
 
