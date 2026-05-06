@@ -14,10 +14,21 @@
                 <a href="contact">CONTACT</a>
                 <a href="projects">PROJECTS</a>
             </nav>
-            <nav class="navme">
-                <a href="skills">SKILLS</a>
-                <a href="talents">TALENTS</a>
-                <a href="experiences">EXPERIENCES</a>
-                <a href="awards">AWARDS</a>
-            </nav>    
+            <nav class="tabs" >
+                <a href="skills" class="tab">SKILLS</a>
+                <a href="talents" class="tab">TALENTS</a>
+                <a href="experiences" class="tab active">EXPERIENCES</a>
+                <a href="awards" class="tab">AWARDS</a>
+            </nav> 
+            <div class="experience">
+                <p>
+                    Lorem ipsum   is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+            </div>
+                <div class="title">
+                <h1> ABOUTME </h1>
+            </div>
+        </div>
+
+            
             

@@ -14,12 +14,48 @@
                 <a href="contact">CONTACT</a>
                 <a href="projects">PROJECTS</a>
             </nav>
-            <nav class="navme">
-                <a href="skills">SKILLS</a>
-                <a href="talents">TALENTS</a>
-                <a href="experiences">EXPERIENCES</a>
-                <a href="awards">AWARDS</a>
-                
-            </nav>    
+            <nav class="tabs" >
+                <a href="skills" class="tab">SKILLS</a>
+                <a href="talents" class="tab">TALENTS</a>
+                <a href="experiences" class="tab">EXPERIENCES</a>
+                <a href="awards" class="tab active">AWARDS</a>
+            </nav>
+
+            <div class="about">
+                <h1> ABOUTME </h1>
+            </div>
+        </div>
+        
+        <div class="tab-content active" id="awards">
+
+      <div class="carousel">
+        <div class="slides">
+
+          <div class="slide active">
+            <img src="assets/images/legacyaward.jpg" alt="This is an AI Development"  />
+            <p>Lorem ipsum   is simply dummy text of the printing and typesetting industry. </p>
+          </div>
+
+          <div class="slide">
+            <img src="assets/images/bestaward.png" alt="This is an AI Development"  />
+            <p>Lorem ipsum   is simply dummy text of the printing and typesetting industry.</p>
+          </div>
+
+          <div class="slide">
+            <img src="assets/images/webaward.jpg" alt="This is an AI Development" />
+            <p>Lorem ipsum   is simply dummy text of the printing and typesetting industry.  </p>
+          </div>
+        </div>
+        <button class="prev">&#10094;</button>
+        <button class="next">&#10095;</button>
+      </div>
+    </div>
+  </div>
+</section>
+<script src="awards.js"></script>
+</body>
+</html>
+            
+
 
             
